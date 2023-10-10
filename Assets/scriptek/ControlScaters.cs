@@ -21,10 +21,10 @@ class ControlStructures : MonoBehaviour
             isEven = "EVEN";
         isEven = number % 2 == 0 ? "EVEN" : "odd";
 
-        int I = 1;
+        int i = 1;
         while (i <= 100)
             Debug.Log(i * i);
-        I++;
+        i++;
         for (int j = 1; j <= 100; j++)
             Debug.Log(j * j);
 
@@ -33,8 +33,7 @@ class ControlStructures : MonoBehaviour
         do
         {
             Debug.Log(k * k);
-            while (k <= 100) ;
-        }
+        } while (k <= 100);
 
 
 
