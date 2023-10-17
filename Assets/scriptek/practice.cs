@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class practice : MonoBehaviour
+class practice : MonoBehaviour
 {
     [SerializeField] int bulletCount = 10;
     [SerializeField] int magazineCount = 5;
@@ -35,7 +35,7 @@ public class practice : MonoBehaviour
             {
                 bulletCount = magazineCapacity;
                 magazineCount--;
-            }
+            } 
         }
     }
 }
