@@ -89,5 +89,19 @@ class MyMath : MonoBehaviour
         }
 
         return s;
+
+        void PrintPrimes(int n)
+        {
+            int primesFound = 0;
+            for (int i = 2; primesFound < n; i++)
+            {
+                bool isPrime = IsPrime(i);
+                if (isPrime)
+                {
+                    Debug.Log(i);
+                    primesFound++;
+                }
+            }
+        }
     }
 }
